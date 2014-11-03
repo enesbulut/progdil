@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <script>
-  
+
   function ReplaceUnderscoreWithSpace()
   { 
-      this.Onar = Onar;
+      this.RepairString = RepairString;
   }
 
-  function Onar (string)
+  function RepairString(string)
   {
       var i,j,s;  
       var array = string.split("");
@@ -36,7 +36,7 @@
 
   var string = '_foo__bar_';
   var example = new ReplaceUnderscoreWithSpace();
-  example.Onar(string);
+  example.RepairString(string);
 
   </script>
 </body>
